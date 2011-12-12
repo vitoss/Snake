@@ -1,0 +1,27 @@
+##NET "BUZZ"  LOC = "P63"; 
+#
+#NET "clk_50MHz"  LOC = "P38"; 
+#NET "RESET"  LOC = "P2" | PULLUP ; 
+# 
+#NET "keyb_clk"  LOC = "P8"; 
+#NET "keyb_data"  LOC = "P9"; 
+#
+#NET "keyb_clk" CLOCK_DEDICATED_ROUTE = TRUE;
+#
+#NET "keyb_clk2"  LOC = "P4"; 
+#NET "keyb_data2"  LOC = "P5"; 
+#
+#NET "keyb_clk2" CLOCK_DEDICATED_ROUTE = TRUE;
+#
+#NET "hsync"  LOC = "P87"; 
+#NET "vsync"  LOC = "P88"; 
+#NET "KOLOR<0>"  LOC = "P71";
+#NET "KOLOR<1>"  LOC = "P72"; 
+#NET "KOLOR<2>"  LOC = "P74";
+#NET "KOLOR<3>"  LOC = "P75";
+#NET "KOLOR<4>"  LOC = "P79";
+#NET "KOLOR<5>"  LOC = "P80";
+#NET "KOLOR<6>"  LOC = "P81";
+#NET "KOLOR<7>"  LOC = "P85";
+#NET "KOLOR<8>"  LOC = "P86";
+#
